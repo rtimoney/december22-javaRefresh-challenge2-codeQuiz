@@ -35,7 +35,9 @@ public class quiz {
 			do {
 
 				// gets a random index value using random so the user gets a random question each time
+				// declare int
 				int questionIndex;
+				// give int a random value within our question range
 				questionIndex = random.nextInt(jokeQuestions.length);
 
 				System.out.println(jokeQuestions[questionIndex]);
